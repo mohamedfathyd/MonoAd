@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nestedScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:background="@color/colorText"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        >
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/appCompatButtonuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorText"
+            android:background="@color/colorTextHint"
+            android:text="قائمة المستخدمين" />
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/appCompatButtonaddcategoryra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorText"
+            android:layout_below="@id/appCompatButtonuser"
+            android:background="@color/colorTextHint"
+            android:text="أضافة قسم رئيسي" />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/appCompatButtonaddcategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorText"
+            android:layout_below="@id/appCompatButtonaddcategoryra"
+            android:background="@color/colorTextHint"
+            android:text="أضافة اعلان داخل قسم " />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/appCompatButtonadd"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorText"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/appCompatButtonaddcategory"
+            android:background="@color/colorTextHint"
+            android:text="أضافة اعلان خارجى" />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/appCompatButtoncode"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorText"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/appCompatButtonadd"
+            android:background="@color/colorTextHint"
+            android:text="أضافة كود" />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/appCompatButtondelete"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorText"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/appCompatButtoncode"
+            android:background="@color/colorTextHint"
+            android:text="مسح" />
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>
